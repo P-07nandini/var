@@ -28,6 +28,13 @@ if d>0:
     score+=bonus
     print(score)
     
+#7
+num=int(input())
+for i in range(0,num+1):
+    if i%2==0:
+        print(i,"EVEN")
+    else:
+        print(i,"ODD") '''
  #3
 
 n=int(input())
@@ -35,11 +42,4 @@ m=int(input())
 
 for i in range(n,m):
     total=n**m
-print("armstrong")'''
-#7
-num=int(input())
-for i in range(0,num+1):
-    if i%2==0:
-        print(i,"EVEN")
-    else:
-       print(i,"ODD")
+print("armstrong")
