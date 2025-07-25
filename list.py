@@ -19,5 +19,3 @@ print(n)
 #Print Even and Odd
 odd = [x for x in n if x%2!=0]
 print(*odd)
-#Input taken by user print Even & Odd numbers
-
